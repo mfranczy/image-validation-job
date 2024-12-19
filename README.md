@@ -24,12 +24,12 @@ Fetches and displays the logs for each completed job, showing the results of the
 
 1. **Validate an Image on All Nodes**:
    ```bash
-   ./script.sh my-repo/my-image:latest
+   ./validate.sh my-repo/my-image:latest
    ```
 
 2. **Validate an Image on Specific Nodes**:
    ```bash
-   ./script.sh my-repo/my-image:latest "node1 node2"
+   ./validate.sh my-repo/my-image:latest "node1 node2"
 
 ## Notes
 
@@ -41,6 +41,10 @@ Fetches and displays the logs for each completed job, showing the results of the
 
 - **Output Control**:
   - Job creation and deletion logs are hidden. Only the results of the validation are displayed.
+
+## Example output
+
+![output](output.png)
 
 ## Customization
 
